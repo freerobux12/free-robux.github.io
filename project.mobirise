@@ -1,0 +1,207 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#c37a7a",
+        "secondaryColor": "#7ddf36",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Epilogue",
+        "display1Size": 4.6,
+        "display2Font": "Epilogue",
+        "display2Size": 3,
+        "display5Font": "Epilogue",
+        "display5Size": "1.8",
+        "display7Font": "Epilogue",
+        "display7Size": "1.1",
+        "display4Font": "Epilogue",
+        "display4Size": "1",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Agency",
+      "nameSelectPreset": "agency",
+      "presetSourceTheme": "mobirise5",
+      "additionalSetColors": [
+        "#7ddf36"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "FREE ROBUX ",
+    "versionFirst": "5.6.8",
+    "siteFonts": [
+      {
+        "css": "'Epilogue', sans-serif",
+        "name": "Epilogue",
+        "url": "https://fonts.googleapis.com/css?family=Epilogue:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/filing-images-bcae43ece6d6.webp",
+    "mbrsiteDomain": "gvsotcqh2r",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 2,
+    "versionPublish": "5.6.8"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Free ROBUX ",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".icons-media-container": {
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-direction": "row",
+              "flex-direction": "row",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "padding-top": "4rem",
+              ".mbr-iconfont": {
+                "font-size": "96px",
+                "color": "rgb(255, 255, 255)"
+              },
+              ".icon-block": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".card": {
+              "padding-bottom": "1.5rem"
+            },
+            ".card-wrapper": {
+              "min-height": "220px",
+              "transition": "all 0.3s",
+              "border-radius": "4px",
+              "padding": "1rem",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              ".mbr-iconfont": {
+                "display": "block",
+                "font-size": "4rem",
+                "color": "#ffffff",
+                "margin-bottom": "2rem"
+              },
+              ".card-title": {
+                "color": "#ffffff"
+              }
+            },
+            "H1": {
+              "color": "#7ddf36"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#bbbbbb"
+            },
+            ".card-wrapper .card-title, .card-box": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "header19",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header19\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"VimeoPlayer\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background' :bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" title=\"Icons Count\" name=\"cardsAmount\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container\">\n            <div class=\"col-md-12 col-lg-10 m-auto align-center\">\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style mb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Free ROBUX!!&nbsp;</b></h1>\n                <p class=\"mbr-text mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;<br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"https://linktr.ee/free.r.o.b.u.x\" data-app-placeholder=\"Type Text\">START&nbsp;</a></div>\n\n                <div class=\"row pt-5 justify-content-center\">\n                    <div class=\"col-12 col-md-6 col-lg-3\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\" style=\"color: rgb(55, 150, 131); fill: rgb(55, 150, 131);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Legalna&nbsp;</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-cart-add mobi-mbri\" style=\"color: rgb(55, 150, 131); fill: rgb(55, 150, 131);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Nie zabiera pieniędzy&nbsp;</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-briefcase mobi-mbri\" style=\"color: rgb(55, 150, 131); fill: rgb(55, 150, 131);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Bezpieczna&nbsp;</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                        <div class=\"card-wrapper\">\n                            <div class=\"card-box align-center\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-android mobi-mbri\" style=\"color: rgb(55, 150, 131); fill: rgb(55, 150, 131);\"></span>\n                                <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-wrapper .card-title, .card-box\"><b>Brak wirusów&nbsp;</b></h4>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sFGzrhlvIh",
+          "_anchor": "header19-3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            ".video-wrapper iframe": {
+              "width": "100%"
+            },
+            ".mbr-section-title, .mbr-description": {
+              "text-align": "center"
+            },
+            ".text-wrapper when (@fullWidth)": {
+              "padding": "1rem"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem",
+                "& when (@fullWidth)": {
+                  "padding-left": "4rem"
+                }
+              }
+            }
+          },
+          "_name": "video5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video5\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Roblox | Official Trailer (2020)</b></h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=eAvXhNlO-rA&loop=0&autoplay=0\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"></p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><b>Roblox | Official Trailer (2020)</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Want to see more Roblox content? SUBSCRIBE to our channel! https://www.youtube.com/user/roblox?s...\n<br>\n<br>Roblox's mission is to bring the world together through play. We enable anyone to imagine, create, and have fun with friends as they explore millions of immersive 3D experiences, all built by a global community of developers. \n<br>\n<br>More from Roblox: \n<br>Official Roblox Website: https://www.roblox.com/\n<br>Roblox Blog: https://blog.roblox.com/\n<br>Roblox Twitter: https://twitter.com/Roblox\n<br>Roblox Facebook: https://www.facebook.com/Roblox/\n<br>Roblox Google+: https://plus.google.com/1029363278934...\n<br>Roblox on iOS: https://itunes.apple.com/us/app/roblo...\n<br>Roblox on Google Play: https://play.google.com/store/apps/de...\n<br>Roblox Windows 10 Store: https://www.microsoft.com/en-us/store...\n<br>Roblox on Amazon: https://www.amazon.com/Roblox-Corpora...</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7e8AUCypn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video5-1"
+        }
+      ]
+    }
+  }
+}
